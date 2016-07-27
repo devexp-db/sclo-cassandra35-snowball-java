@@ -1,0 +1,29 @@
+--- java/org/tartarus/snowball/ext/frenchStemmer.java	2013-04-28 08:01:24.000000000 +0200
++++ java/org/tartarus/snowball/ext/frenchStemmer.java-gil	2013-09-02 18:17:56.055397810 +0200
+@@ -997,7 +997,7 @@
+                             // <-, line 155
+                             slice_from("ant");
+                             return false;
+-                            break;
++                            //break;
+                         case 14:
+                             // (, line 156
+                             // call RV, line 156
+@@ -1010,7 +1010,7 @@
+                             // <-, line 156
+                             slice_from("ent");
+                             return false;
+-                            break;
++                            //break;
+                         case 15:
+                             // (, line 158
+                             // test, line 158
+@@ -1031,7 +1031,7 @@
+                             // delete, line 158
+                             slice_del();
+                             return false;
+-                            break;
++                            //break;
+                     }
+                     return true;
+                 }
